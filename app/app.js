@@ -10,11 +10,11 @@
 
 import React, { Component } from 'react';
 import {
-    Navigator,
     View,
     StatusBar,
     Platform
 } from 'react-native';
+import { Navigator } from 'react-native-deprecated-custom-components';
 
 import Splash from './pages/Splash';
 
